@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Product API Response Schema",
+  "type": "object",
+  "properties": {
+    "responseCode": {
+      "type": "integer",
+      "description": "HTTP-style response code indicating success"
+    },
+    "products": {
+      "type": "array",
+      "description": "List of products",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "Unique identifier for the product"
+          },
+          "name": {
+            "type": "string",
+            "description": "Product name"
+          },
+          "price": {
+            "type": "string",
+            "pattern": "^Rs\\.\\s?[0-9]+",
+            "description": "Price in 'Rs. amount' format"
+          },
+          "brand": {
+            "type": "string",
+            "description": "Brand name"
+          },
+          "category": {
+            "type": "object",
+            "description": "Product category and user type details",
+            "properties": {
+              "usertype": {
+                "type": "object",
+                "properties": {
+                  "usertype": {
+                    "type": "string",
+                    "enum": ["Men", "Women", "Kids"],
+                    "description": "User type category"
+                  }
+                },
+                "required": ["usertype"]
+              },
+              "category": {
+                "type": "string",
+                "description": "Product category name"
+              }
+            },
+            "required": ["usertype", "category"]
+          }
+        },
+        "required": ["id", "name", "price", "brand", "category"]
+      },
+      "minItems": 1
+    }
+  },
+  "required": ["responseCode", "products"]
+}

@@ -1,0 +1,2 @@
+Status code  400
+Response Text {"detail":"JSON parse error - Expecting value: line 1 column 1 (char 0)"}

@@ -1,0 +1,2 @@
+✅ Screenshot saved at: C:\Users\Sachin Kumar Tiwari\PycharmProjects\E2E_Automation_Testing_for_e-commerce\capture_screenshot\error.png_20250924_195246.png
+Your email or password is incorrect!

@@ -1,0 +1,2 @@
+Status Code  200
+Status Text  {"responseCode": 400, "message": "Bad request, email parameter is missing in PUT request."}
