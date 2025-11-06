@@ -1,0 +1,17 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Create User Response Schema",
+    "type": "object",
+    "properties": {
+        "responseCode": {
+            "type": "integer",
+            "enum": [201]
+        },
+        "message": {
+            "type": "string",
+            "const": "User created!"
+        }
+    },
+    "required": ["responseCode", "message"],
+    "additionalProperties": false
+}

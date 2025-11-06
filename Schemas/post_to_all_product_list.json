@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Product API Error Response Schema",
+  "type": "object",
+  "properties": {
+    "responseCode": {
+      "type": "integer",
+      "const": 405,
+      "description": "HTTP-style response code indicating that the method is not allowed"
+    },
+    "message": {
+      "type": "string",
+      "const": "This request method is not supported.",
+      "description": "Error message returned by the API"
+    }
+  },
+  "required": ["responseCode", "message"],
+  "additionalProperties": false
+}

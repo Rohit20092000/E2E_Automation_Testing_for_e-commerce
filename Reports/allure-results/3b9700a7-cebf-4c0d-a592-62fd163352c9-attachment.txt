@@ -1,0 +1,2 @@
+Rs. 2100Rs. 4500
+Timeout waiting for element to be clickable.

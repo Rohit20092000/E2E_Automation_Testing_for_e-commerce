@@ -1,0 +1,33 @@
+{
+  "data": [
+    {
+      "name": "Rohit",
+      "last_name": "Juyal",
+      "email": "rohitjuyal111@gmail.com",
+      "password": "Rohitjuyal",
+      "day": "29",
+      "month": "August",
+      "year": "2000",
+      "company_name": "Wipro",
+      "address": "Kotdwar",
+      "address1": "satichaur",
+      "state": "Uttarakhand",
+      "city": "Kotdwar",
+      "zip_code": "248007",
+      "Mobile": "902707045",
+      "country": "India",
+      "search_data": "Top",
+      "comment": " Kindly deliver the product on time",
+      "card_number": "4315-1820-2310-5250",
+      "csv":"234",
+      "expire_month": "08",
+      "expire_year": "2030"
+    }
+  ],
+  "wrong_data": [
+    {
+      "email": "st898989@gmail.com",
+      "wrong_password": "qwerty"
+    }
+  ]
+}

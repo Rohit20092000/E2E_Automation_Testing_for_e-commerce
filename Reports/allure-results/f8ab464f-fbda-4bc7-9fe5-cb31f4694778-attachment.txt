@@ -1,0 +1,2 @@
+Status Code  405
+Status Text  {"detail":"Method \"PUT\" not allowed."}

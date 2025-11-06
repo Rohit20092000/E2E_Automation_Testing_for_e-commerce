@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Login Missing Parameter Schema",
+  "type": "object",
+  "properties": {
+    "responseCode": {
+      "type": "integer",
+      "const": 400,
+      "description": "Indicates a bad request when a required parameter is missing"
+    },
+    "message": {
+      "type": "string",
+      "pattern": ".*missing.*",
+      "description": "Error message indicating a required parameter is missing"
+    }
+  },
+  "required": ["responseCode", "message"],
+  "additionalProperties": false
+}

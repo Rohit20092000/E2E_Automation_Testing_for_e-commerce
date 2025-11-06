@@ -1,0 +1,2 @@
+<bound method Products_and_product_detail_page.women_dress_text of <Page_POM.Positive_POM.Verify_All_Products_and_product_detail_page.Products_and_product_detail_page object at 0x00000260E3EC7B30>>
+Women - Dress Products

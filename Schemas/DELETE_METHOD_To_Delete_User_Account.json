@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Delete User Account API Response Schema",
+  "type": "object",
+  "properties": {
+    "responseCode": {
+      "type": "integer",
+      "enum": [200, 400]
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": ["responseCode", "message"],
+  "additionalProperties": false
+}
