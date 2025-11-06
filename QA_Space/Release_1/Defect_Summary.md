@@ -2,8 +2,8 @@
 
 | Defect ID | Title                               | Severity | Status | Remarks |
 |------------|-------------------------------------|-----------|----------|----------|
-| BUG-101 | Verify API Post to all product list | Critical | Open | Backend latency |
-| BUG-102 | Product image missing in cart       | Medium | Fixed | UI rendering issue |
+| BUG-101 | Verify API Post to all product list | Critical | Open  |[Link](https://rohitjuyalktwd.atlassian.net/browse/EATFEC-1)|
+| BUG-102 | Product image missing in cart       | Medium | Fixed | [Link](https://rohitjuyalktwd.atlassian.net/browse/EATFEC-1)|)|
 
 
 Root Cause Analysis:

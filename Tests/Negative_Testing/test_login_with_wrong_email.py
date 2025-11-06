@@ -27,8 +27,6 @@ def test_wrong_email(browserInstance):
     capture_screenshot(browserInstance, "error.png")
 
     error_message = login_with_wrong_email.error_message()
-    print(error_message)  # Debugging output
-
     assert error_message == "Your email or password is incorrect!", \
         f"Expected 'Your email or password is incorrect!' but got: {error_message}"
 

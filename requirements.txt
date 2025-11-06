@@ -1,0 +1,8 @@
+pytest
+pytest-html
+pytest-xdist
+selenium
+requests
+allure-pytest
+jsonschema
+pytest-timeout
